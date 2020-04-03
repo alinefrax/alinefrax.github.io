@@ -1,21 +1,39 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ffff</title>
+<title>БЕРЁЗОЧКА</title>
+<style>
+   .layer1 {
+    font: 20pt sans-serif;  
+   } 
+ </style>
 </head>
 <body>
 <h1>МММ САМАЯ КЛАССНАЯ В МИРЕ ИГРА</h1>
-  <script>
-	let i = 0;
-	function count() {
-		if (i == 4) alert("ПОЗДРАВЛЯЕМ! ВЫ ПОЛУЧИЛИ НИХЕРА!")
-		else {
-			i = i +1;
-	      		alert(i);
-		}
- 	}
+<p id="demo"></p>
+<script>
+    let i = 0;
+    function count() {
+        if (i == 4) {
+     alert("ПОЗДРАВЛЯЕМ! ВЫ ПОЛУЧИЛИ НИХЕРА!");
+        i = i+1
+     }
+     else if (i<4) {
+            i = i +1;
+                  alert(i);
+        }
+     else alert("слыш пёс ты уже получил нихуя, шо тебе ещё надо")
+     document.getElementById("demo").innerHTML =  i;
+     }
 
 </script>
+
+<iframe src="tyk.html" width="468" height="600" align="left">
+</iframe>
 <img src="https://sun9-2.userapi.com/c855724/v855724376/21ae16/_JrKYmrtwIk.jpg" alt="альтернативный текст" onclick="count()">
+<div class=layer1>
+Девочки записываемся на ноготочки
+</div>
 </body>
 </html>
+
