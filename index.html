@@ -12,19 +12,13 @@
 <h1>МММ САМАЯ КЛАССНАЯ В МИРЕ ИГРА</h1>
 <p id="demo"></p>
 <script>
-    let i = 0;
-    function count() {
-        if (i == 4) {
-           i = i+1;
-           alert("ПОЗДРАВЛЯЕМ! ВЫ ПОЛУЧИЛИ НИХЕРА!");
-        }
-        else if (i<4) {
-            i = i+1;              
-        }
-        else alert("слыш пёс ты уже получил нихуя, шо тебе ещё надо");
+    let i = 0;   
+    function count() {   
         document.getElementById("demo").innerHTML =  i;
-     }
-
+        i++;
+        if (i == 5) alert("ПОЗДРАВЛЯЕМ! ВЫ ПОЛУЧИЛИ НИХЕРА!");           
+        else if (i > 5) alert("слыш пёс ты уже получил нихуя, шо тебе ещё надо");       
+    }
 </script>
 
 <img src="https://sun9-2.userapi.com/c855724/v855724376/21ae16/_JrKYmrtwIk.jpg" alt="альтернативный текст" onclick="count()">
