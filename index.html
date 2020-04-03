@@ -12,10 +12,11 @@
 <h1>МММ САМАЯ КЛАССНАЯ В МИРЕ ИГРА</h1>
 <p id="demo"></p>
 <script>
-    let i = 0;   
-    function count() {   
-        document.getElementById("demo").innerHTML =  i;
+    let i = 0;
+    document.getElementById("demo").innerHTML =  i;
+    function count() {  
         i++;
+        document.getElementById("demo").innerHTML =  i;
         if (i == 5) alert("ПОЗДРАВЛЯЕМ! ВЫ ПОЛУЧИЛИ НИХЕРА!");           
         else if (i > 5) alert("слыш пёс ты уже получил нихуя, шо тебе ещё надо");       
     }
