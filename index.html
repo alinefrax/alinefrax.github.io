@@ -21,6 +21,7 @@
 <p id="demo"></p>
 <script>
 let i = 0;
+let OurPointer = true;
 document.getElementById("demo").innerHTML = i;
 function count() {
 i++;
@@ -36,9 +37,9 @@ document.getElementById("demo").innerHTML = i;
 >
 <map name="kura-map" id="kura-map">
 <area alt="Kura" title="Kura" shape="poly" coords="275,110,126,90,0,161,95,253,178,391,286,482,398,423,337,403,468,310,488,228,469,103,511,85,470,10,365,42" 
-	onmousedown="myVar = setInterval(count, 100)" 
-	onmouseup="clearInterval(myVar)"
-	onmouseout="clearInterval(myVar)"
+	onmousedown="if (OurPointer == true) myVar = setInterval(count, 100); OurPointer = false;" 
+	onmouseup="clearInterval(myVar); OurPointer = true;"
+	onmouseout="clearInterval(myVar); OurPointer = true;"
 > 
 </map>
 <div class=layer1>
