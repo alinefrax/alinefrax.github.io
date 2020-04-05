@@ -4,7 +4,6 @@ var ctx = canva.getContext('2d');
 //for KuraImage
 var imgOfKura = new Image();
 imgOfKura.src = "kura.png";
-imgOfBirch.src = "ГОТ_берёза.png";
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
     var height = imgOfKura.naturalHeight;
