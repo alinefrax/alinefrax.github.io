@@ -24,12 +24,12 @@ imgOfKura.src = "kura.png";
 imgOfBirch.src = "ГОТ_берёза.png";
 imgOfPol.src = "ГОТ_полянка.png";
 gif.src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F598345500467362823%2F&psig=AOvVaw3B6JwFgbcQr2jOJorBhYWP&ust=1586203161937000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCS9rKJ0ugCFQAAAAAdAAAAABAD"
-imgOfPol.addEventListener("load", function(e){
+/*imgOfPol.addEventListener("load", function(e){
     var width = imgOfPol.naturalWidth;
     var height = imgOfPol.naturalHeight;
     ctx.drawImage(imgOfPol, 0, 0, width/2, height/2);
     //canva.addEventListener("click", count);
-}, false);
+}, false);*/
 
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
