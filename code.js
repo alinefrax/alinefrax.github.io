@@ -23,6 +23,13 @@ imgOfKura.src = "kura.png";
 imgOfBirch.src = "ГОТ_берёза.png";
 imgOfPol.src = "ГОТ_полянка.png";
 
+imgOfPol.addEventListener("load", function(e){
+    var width = imgOfPol.naturalWidth;
+    var height = imgOfPol.naturalHeight;
+    ctx.drawImage(imgOfPol, 0, 0, width/2, height/2);
+    //canva.addEventListener("click", count);
+}, false);
+
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
     var height = imgOfKura.naturalHeight;
@@ -30,20 +37,10 @@ imgOfKura.addEventListener("load", function(e){
 }, false);
 
 
-
 imgOfBirch.addEventListener("load", function(e){
     var width = imgOfBirch.naturalWidth;
     var height = imgOfBirch.naturalHeight;
     ctx.drawImage(imgOfBirch, 334, 74, width/6, height/6);
-    //canva.addEventListener("click", count);
-}, false);
-
-
-
-imgOfPol.addEventListener("load", function(e){
-    var width = imgOfPol.naturalWidth;
-    var height = imgOfPol.naturalHeight;
-    ctx.drawImage(imgOfPol, 0, 0, width/2, height/2);
     //canva.addEventListener("click", count);
 }, false);
 
