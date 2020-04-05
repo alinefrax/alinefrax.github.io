@@ -3,7 +3,7 @@ var ctx = canva.getContext('2d');
 
 //for KuraImage
 var imgOfKura = new Image();
-imgOfKura.src = "https://sun9-24.userapi.com/HBaIRyDDUspGeVXZkVij6Ze1MTWR-MMs7dK70Q/CfvkK1agBeI.jpg";
+imgOfKura.src = "kura.png";
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
     var height = imgOfKura.naturalHeight;
