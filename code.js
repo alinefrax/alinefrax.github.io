@@ -11,7 +11,7 @@ imgOfKura.addEventListener("load", function(e){
     canva.height = height/2;
     canva.width = width/2;
     ctx.drawImage(imgOfKura, 0, 0, canva.width, canva.height);
-    //canva.addEventListener("click", count);
+    canva.addEventListener("click", count);
 }, false);
 
 imgOfBirch.addEventListener("load", function(e){
@@ -19,8 +19,7 @@ imgOfBirch.addEventListener("load", function(e){
     var height = imgOfBirch.naturalHeight;
     canva.height = height/3;
     canva.width = width/3;
-    ctx.drawImage(imgOfBirch, 0, 0, canva.width, canva.height);
-    imgOfBirch.addEventListener("click", count);
+    ctx.drawImage(imgOfBirch, 100, 100, canva.width, canva.height);
 }, false);
 
 //for counter
