@@ -11,7 +11,7 @@ imgOfKura.addEventListener("load", function(e){
     canva.width = width/3;
     ctx.drawImage(imgOfKura, 0, 0, width/5, height/5);
 
-    imgOfKura.addEventListener(“mousedown”, count);
+    
 }, false);
 
 //for counter
