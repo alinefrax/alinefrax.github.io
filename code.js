@@ -1,5 +1,7 @@
 var canva = document.getElementById('game');
 var ctx = canva.getContext('2d');
+canva.height = 640;
+canva.width = 1000;
 
 //for KuraImage
 /* var imgOfKura = new Image();
