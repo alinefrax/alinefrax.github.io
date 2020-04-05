@@ -7,8 +7,8 @@ imgOfKura.src = "kura.png";
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
     var height = imgOfKura.naturalHeight;
-    canva.height = height/3;
-    canva.width = width/3;
+    canva.height = height/2;
+    canva.width = width/2;
     ctx.drawImage(imgOfKura, 0, 0, canva.width, canva.height);
     canva.addEventListener("click", count);
 }, false);
