@@ -10,7 +10,7 @@ imgOfKura.addEventListener("load", function(e){
     canva.height = height/3;
     canva.width = width/3;
     ctx.drawImage(imgOfKura, 0, 0, width/3, height/3);
-
+    imgOfKura.addEventListener("click", count);
     
 }, false);
 
