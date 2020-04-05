@@ -14,13 +14,7 @@ imgOfKura.addEventListener("load", function(e){
     canva.addEventListener("click", count);
 }, false);
 
-imgOfBirch.addEventListener("load", function(e){
-    var width = imgOfBirch.naturalWidth;
-    var height = imgOfBirch.naturalHeight;
-    canva.height = height/3;
-    canva.width = width/3;
-    ctx.drawImage(imgOfBirch, 100, 100, canva.width, canva.height);
-}, false);
+
 
 //for counter
 let i = 0;
