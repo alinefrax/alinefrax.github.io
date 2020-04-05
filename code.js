@@ -9,9 +9,8 @@ imgOfKura.addEventListener("load", function(e){
     var height = imgOfKura.naturalHeight;
     canva.height = height/3;
     canva.width = width/3;
-    ctx.drawImage(imgOfKura, 0, 0, width/3, height/3);
-    imgOfKura.addEventListener("click", count);
-    
+    ctx.drawImage(imgOfKura, 0, 0, canva.width, canva.height);
+    canva.addEventListener("click", count);
 }, false);
 
 //for counter
