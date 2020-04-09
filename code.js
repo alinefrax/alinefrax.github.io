@@ -19,7 +19,7 @@ imgOfKura.addEventListener("load", function(e){
 var imgOfKura = new Image();
 var imgOfBirch = new Image();
 var imgOfPol = new Image();
-var gif = new Image();
+var gif = new GIF();
 imgOfKura.src = "kura.png";
 imgOfBirch.src = "ГОТ_берёза.png";
 imgOfPol.src = "ГОТ_полянка.png";
@@ -34,14 +34,14 @@ gif.src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_eart
 imgOfKura.addEventListener("load", function(e){
     var width = imgOfKura.naturalWidth;
     var height = imgOfKura.naturalHeight;
-    ctx.drawImage(imgOfKura, 31, 414, width/3, height/3);   
+    ctx.drawImage(imgOfKura, 31, 314, width/3, height/3);   
 }, false);
 
 
 imgOfBirch.addEventListener("load", function(e){
     var width = imgOfBirch.naturalWidth;
     var height = imgOfBirch.naturalHeight;
-    ctx.drawImage(imgOfBirch, 334, 74, width/6, height/6);
+    ctx.drawImage(imgOfBirch, 304, 54, width/7, height/7);
     //canva.addEventListener("click", count);
 }, false);
 
