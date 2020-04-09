@@ -19,7 +19,7 @@ imgOfKura.addEventListener("load", function(e){
 var imgOfKura = new Image();
 var imgOfBirch = new Image();
 var imgOfPol = new Image();
-var gif = new GIF();
+var gif = new Image();
 imgOfKura.src = "kura.png";
 imgOfBirch.src = "ГОТ_берёза.png";
 imgOfPol.src = "ГОТ_полянка.png";
