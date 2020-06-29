@@ -4,8 +4,9 @@ canva.height = 1399;
 canva.width = 895;
 
 let divForKura = document.createElement('div');
-div.className = "Kura";
-div.innerHTML = "<img scr="kura.png">";
+divForKura.className = "Kura";
+divForKura.innerHTML = "<img scr="kura.png">";
+document.body.append(divForKura);
 
 var imgOfKura = new Image();
 var imgOfBirch = new Image();
