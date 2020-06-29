@@ -3,8 +3,6 @@ var ctx = canva.getContext('2d');
 canva.height = 1399;
 canva.width = 895;
 
-
-//картинки
 var imgOfKura = new Image();
 var imgOfBirch = new Image();
 var imgOfPol = new Image();
