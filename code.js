@@ -3,6 +3,10 @@ var ctx = canva.getContext('2d');
 canva.height = 1399;
 canva.width = 895;
 
+let divForKura = document.createElement('div');
+div.className = "Kura";
+div.innerHTML = "<img scr="kura.png">";
+
 var imgOfKura = new Image();
 var imgOfBirch = new Image();
 var imgOfPol = new Image();
@@ -17,7 +21,6 @@ imgOfKura.addEventListener("load", function(e){
    var height = imgOfKura.naturalHeight;
    ctx.drawImage(imgOfKura, 31, 314, width/3, height/3);
 }, false);
-
 
 imgOfBirch.addEventListener("load", function(e){
    var width = imgOfBirch.naturalWidth;
